@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #F1F1F1;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -58,3 +58,101 @@ body {
 .font-weight{
   font-weight: normal;
 }
+
+.informasi1 .title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 24px; /* Adjust the size as needed */
+  font-weight: bold; /* Optional: Make the text bold */
+}
+
+.informasi1 .title:before,
+.informasi1 .title:after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid gray;
+  margin: 0 20px;
+}
+
+.informasi1 .title span {
+  padding: 0 10px;
+}
+
+.informasi1 .description {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px; /* Adjust the size as needed */
+  line-height: 1.5;
+}
+
+.informasi1 .description p {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.informasi1 .photo-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Make the gallery responsive */
+}
+
+.informasi1 .photo-item {
+  text-align: center;
+  margin: 10px; /* Add margin to space out items */
+}
+
+.informasi1 .round-photo {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.informasi1 .photo-item p {
+  margin-top: 10px;
+  font-size: 14px; /* Adjust the size as needed */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .informasi1 .title {
+    font-size: 20px;
+  }
+
+  .informasi1 .description {
+    font-size: 14px;
+  }
+
+  .informasi1 .round-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .informasi1 .photo-item p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .informasi1 .title {
+    font-size: 18px;
+  }
+
+  .informasi1 .description {
+    font-size: 12px;
+  }
+
+  .informasi1 .round-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .informasi1 .photo-item p {
+    font-size: 10px;
+  }
+}
+
