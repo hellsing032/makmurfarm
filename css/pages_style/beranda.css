@@ -1,0 +1,346 @@
+/**Content Wrapper**/
+.content-wrapper {
+    padding-top: 120px;
+  }
+  
+  .background-section {
+    position: relative;
+    background-image: url('../../assets/photo1.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .background-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+  }
+  
+  .move-up {
+    margin-top: -15px;
+  }
+  
+  .text-decoration{
+    text-decoration: none; 
+    font-size: 20px;
+  }
+  
+  .small-font {
+    font-size: 14px;
+  }
+  
+  .font-weight{
+    font-weight: normal;
+  }
+  /**end content wrapper**/
+  
+  /**informasi1**/
+  .informasi1 .title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .informasi1 .title:before,
+  .informasi1 .title:after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid gray;
+    margin: 0 20px;
+  }
+  
+  .informasi1 .title span {
+    padding: 0 10px;
+  }
+  
+  .informasi1 .description {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .informasi1 .description p {
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  .informasi1 .photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .informasi1 .photo-item {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .informasi1 .round-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .informasi1 .photo-item p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .informasi1 .title {
+      font-size: 20px;
+    }
+  
+    .informasi1 .description {
+      font-size: 14px;
+    }
+  
+    .informasi1 .round-photo {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .informasi1 .photo-item p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .informasi1 .title {
+      font-size: 18px;
+    }
+  
+    .informasi1 .description {
+      font-size: 12px;
+    }
+  
+    .informasi1 .round-photo {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .informasi1 .photo-item p {
+      font-size: 10px;
+    }
+  }
+  /**end informasi1**/
+  
+  /**informasi2**/
+  .informasi2 .title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .informasi2 .title:before,
+  .informasi2 .title:after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid gray;
+    margin: 0 20px;
+  }
+  
+  .informasi2 .title span {
+    padding: 0 10px;
+  }
+  
+  .informasi2 .description {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .informasi2 .description p {
+    margin: 0;
+    padding: 0 10px;
+    padding-bottom: 50px;
+  }
+  /**informasi2**/
+  
+  /**Why Choose Us**/
+  .photo-gallery {
+    display: flex;
+    gap: 20px;
+  }
+  .photo-item {
+    text-align: center;
+    max-width: 200px;
+  }
+  .round-photo {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .titlepage {
+       text-align: center;
+       padding-bottom: 60px;
+  }
+  
+  .titlepage h2 {
+       font-size: 50px;
+       line-height: 62px;
+       font-weight: bold;
+       padding: 0;
+  }
+  
+  .d_flex {
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+  }
+  
+  .read_more {
+      position: relative;
+       font-size: 17px;
+       background-color: #f4cb1e;
+       color: #fff;
+       padding: 13px 0px;
+       width: 80%;
+       max-width: 190px;
+       text-align: center;
+       display: inline-block;
+       transition: ease-in all 0.5s;
+       z-index: 500;
+       font-weight: 500;
+  }
+  
+  .read_more:hover {
+       background: #fff;
+       color: #000;
+       transition: ease-in all 0.5s;
+  }
+  
+  /** choose  section **/
+  .choose {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    background-color: darkkhaki;
+    padding: 80px 0;
+    position: relative;
+  }
+  
+  .choose::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 195px;
+    background: url(../images/choose_bottom_cross.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+  }
+  
+  .choose .titlepage {
+    text-align: left;
+    padding-bottom: 0;
+  }
+  
+  .choose .titlepage h2 {
+    color: #fff;
+  }
+  
+  .choose .titlepage p {
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    padding-top: 20px;
+    line-height: 32px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .choose_img {
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+  
+  .col-xl-5.col-lg-5.col-md-12.col-sm-12 {
+    padding-bottom: 120px;
+  }
+  
+  .choose_img figure {
+    margin: 0;
+    margin-left: -50px;
+  }
+  
+  .choose_img figure img {
+    width: 100%;
+  }
+  
+  .padding_with {
+    max-width: 653px;
+    width: 100%;
+  }
+  
+  .choose_box {
+    display: flex;
+  }
+  
+  .choose_box i {
+    float: left;
+  }
+  
+  .choose_box i img {
+    float: left;
+    background-color: #f4cb1e;
+    width: 140px;
+    padding: 10px;
+    border-radius: 60px;
+  }
+  
+  .choose_text {
+    float: right;
+    padding-left: 20px;
+  }
+  
+  .choose_text h3 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  
+  .choose_text p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+  }
+  
+  .padding_bottom {
+    padding-bottom: 30px;
+  }
+  
+  .margin_bottom2 {
+    padding-bottom: 120px;
+  }
+  /** end choose  section **/
