@@ -3,11 +3,18 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.dd{
+  margin-right: 220px;
+}
+
 /**navbar**/
 .navbar {
   margin-bottom: 20px;
   background-color: darkkhaki;
-  padding-left: 30px;
+}
+
+.navbar-nav{
+  margin-right: 20px;
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -15,28 +22,22 @@ body {
 }
 
 .avatar {
-  vertical-align: middle;
+  position: relative;
   width: 100px;
   height: 100px;
+  margin-left: 10px;
 }
 /**end navbar**/
 
 
-/**footer**/
 footer {
   width: 100%;
-  position: relative;
-  left: 0;
-  right: 0;
   background-color: darkkhaki;
-
+  text-align: center;
 }
 
-.copyright{
-    width: 100%;
-    position: relative;
-    left: 0;
-    right: 0;
-    background-color: rgb(194, 183, 37);
-    padding: 10px;
+.copyright {
+  background-color: rgb(194, 183, 37);
+  padding: 10px;
+  text-align: center;
 }

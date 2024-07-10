@@ -184,11 +184,11 @@
   
   .title {
     flex: 1; /* Agar judul dapat memanfaatkan ruang yang tersedia */
+    margin-right: 20px;
   }
   
   .right {
     margin-top: 10px;
-    margin-left: 5px;
     flex: 1; /* Agar deskripsi dapat memanfaatkan ruang yang tersedia */
     text-align: justify; /* Untuk mengatur posisi teks deskripsi ke kanan */
   }
