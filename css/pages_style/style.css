@@ -5,12 +5,20 @@ body {
 
 /**navbar**/
 .navbar {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: darkkhaki;
 }
 
+.navbar-toggler {
+  margin-right: 10px;
+}
+
+.navbar-collapse {
+  margin-left: 10px; /* Atur nilai sesuai kebutuhan */
+}
+
 .navbar-nav{
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .navbar-nav .nav-item .nav-link.active {
