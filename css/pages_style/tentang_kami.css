@@ -123,33 +123,35 @@
     color: black;
 }
 
-.informasi .container {
-    text-align: center; /* Menengahkan konten secara horizontal */
+
+.pic{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    
 }
 
 .pic1, .pic2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: inline-block;
-    width: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-items: center;
+    width: 400px;
     height: 600px;
-    background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
-    opacity: 1;
     position: relative;
-    top: 0;
-    border-radius: 50px;
+    border-radius: 20px;
     overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .pic1 {
-    background-image: url("../../assets/photo3.png");
-    margin-right: 50px;
+    background-image: url("../../assets/tentang_kami (2).jpg");
 }
 
 .pic2 {
-    background-image: url("../../assets/kambing1.jpg");
+    background-image: url("../../assets/tentang_kami (1).jpg");
 }
 /**end informasi**/
 

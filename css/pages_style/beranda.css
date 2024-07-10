@@ -227,8 +227,8 @@
   }
   
   .read_more:hover {
-       background: #fff;
-       color: #000;
+       background: darkgreen;
+       color: white;
        transition: ease-in all 0.5s;
   }
   
